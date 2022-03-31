@@ -22,6 +22,6 @@ func main() {
 	fmt.Println("Permissions on this file is: ", fileInfo.Mode())
 	fmt.Println("Last time of modification of the file is: ", fileInfo.ModTime())
 	fmt.Println("The file is a directory: ", fileInfo.IsDir())
-	fmt.Println("The system interface type of the file is: %T\n", fileInfo.Sys())
-	fmt.Println("The system information is: : ", fileInfo.Sys())
+	fmt.Printf("The system interface type of the file is: %T\n", fileInfo.Sys())
+	fmt.Printf("The system information is: %+v\n\n ", fileInfo.Sys())
 }
