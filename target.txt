@@ -1,0 +1,4 @@
+This text file is a target file for explaining simple digital forensics operations with
+the Go programming language.
+
+This writeup is meant to populate the file with basic text to alter the state of the file in different occasions.
